@@ -33,11 +33,6 @@ To get started with this project, follow these steps:
    npm run dev
    ```
 
-## Usage
-
-1. **Start the App**: Once running, the app will display a list of menu items fetched from the Wix Studio CMS.
-2. **Update Content via CMS**: Log in to your Wix Studio account, navigate to the content collection (e.g., “Pizza Menu”), and add or update items. Refresh the app to see changes reflected in real time.
-
 ## Purpose
 
 This demo showcases the ease of integrating **Wix Studio’s Headless CMS** with a frontend framework like React. It’s especially useful for frontend developers who want to keep content dynamic and client-accessible, without backend development.
