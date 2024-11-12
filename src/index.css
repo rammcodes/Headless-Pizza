@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #eee;
+  font-family: 'Inter', sans-serif;
+}
+
+/* 75em === 1200px */
+@media (max-width: 75em) {
+  html {
+    font-size: 60%;
+  }
+}
+
+/* 56.25em === 900px */
+@media (max-width: 56.25em) {
+  html {
+    font-size: 58%;
+  }
+}
+
+/* 37.5em === 600px */
+@media (max-width: 37.5em) {
+  html {
+    font-size: 56%;
+  }
+}

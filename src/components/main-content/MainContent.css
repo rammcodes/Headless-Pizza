@@ -1,0 +1,137 @@
+.container {
+  max-width: 110rem;
+  width: 90%;
+  margin: auto;
+
+}
+
+.main-content {
+  padding: 16rem 0;
+}
+
+/* 37.5em === 600px */
+@media (max-width: 37.5em) {
+  .main-content {
+    padding: 16rem 0 10rem 0;
+  }
+}
+
+
+.main-content__upper {
+  display: flex;
+  margin-bottom: 3rem;
+}
+
+.main-content__upper-title {
+  font-size: 2rem;
+  color: #777;
+  align-self: flex-end;
+}
+
+/* 56.25em === 900px */
+@media (max-width: 56.25em) {
+  .main-content__upper-title {
+    display: none;
+  }
+}
+
+.main-content__upper-title span {
+  color: #333;
+  font-weight: 800;
+}
+
+
+.main-content__sort {
+  z-index: 10;
+  position: relative;
+  display: inline-block;
+  position: relative;
+}
+
+.main-content__sort-main {
+  display: flex;
+  align-items: center;
+  background: #fafafa;
+  border: none;
+  padding: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.main-content__sort-main span {
+  font-size: 1.6rem;
+  font-weight: 800;
+  font-family: 'Inter', sans-serif;
+  color: #888888;
+}
+
+.main-content__sort-main i {
+  font-size: 3rem;
+  color: #888888;
+  margin-right: 1rem;
+}
+
+.main-content__sort-dropdown {
+  position: absolute;
+  background: #fafafa;
+  top: 120%;
+  left: 0;
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 10px;
+}
+
+.main-content__sort-dropdown-el {
+  list-style: none;
+  font-size: 1.8rem;
+  font-weight: 800;
+  font-family: 'Inter', sans-serif;
+  color: #888888;
+  padding: 1rem;
+  transition: all .3s;
+  cursor: pointer;
+}
+
+.main-content__sort-dropdown-el:first-child {
+  border-bottom: 1px solid #ccc;
+}
+
+.main-content__sort-dropdown-el:hover {
+  background: #eee;
+}
+
+.main-content__sort-dropdown-el--active {
+  color: #ff8b2d !important;
+}
+
+
+.main-content__pag {
+  padding-top: 3rem;
+  display: flex;
+  font-size: 4rem;
+  gap: 1rem;
+  justify-content: flex-end;
+}
+
+.main-content__pag-right,
+.main-content__pag-left {
+  background: #fafafa;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+
+.main-content__pag-left i,
+.main-content__pag-right i {
+  color: #888888;
+}
+
+/* .main-content__pag-left {} */
